@@ -1,0 +1,12 @@
+quine
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.idb
+*.user
+Debug/
+x64/
+*_result.txt
+tmp_input.txt
+tmp_output.txt
