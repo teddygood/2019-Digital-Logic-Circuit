@@ -2,6 +2,16 @@
 
 Digital Logic Circuit lecture designs, lab implementations, and term projects.
 
+## Environment
+
+Original coursework environment for this repository:
+
+- Quartus II 15.1 Lite Edition
+- ModelSim-Altera
+- RTL simulation, waveform analysis, and testbench-based checking
+
+This repository keeps source files, testbench files, and project data only.
+
 - `Arithmetic-Logic-Unit`: Arithmetic and logic operation modules with related test sources.
 - `Bus`: Simple shared-bus design with arbiter, decoder, and bus verification files.
 - `Carry-Lookahead-Adder`: Carry lookahead adder implementations from small blocks to wider adders.
@@ -17,5 +27,5 @@ Digital Logic Circuit lecture designs, lab implementations, and term projects.
 - `Shifter/8-bit-Loadable-Shifter`: 8-bit loadable shifter modules and testbench files.
 - `Syncronous-FIFO`: Synchronous FIFO implementation and verification files.
 - `Traffic-Light-Controller`: FSM-based traffic light controller design and test files.
-- `project-memory-mapped-alu-dmac-system`: Integrated memory-mapped ALU, DMAC, BUS, and RAM term project, verified with Quartus II 15.1 Lite Edition and ModelSim-Altera using RTL simulation, waveform analysis, and testbench-based checking.
+- `project-memory-mapped-alu-dmac-system`: Integrated memory-mapped ALU, DMAC, BUS, and RAM term project.
 - `project-quine-mccluskey-cost-minimizer`: Quine-McCluskey SOP minimizer with transistor cost output.
