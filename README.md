@@ -23,9 +23,8 @@ This repository keeps source files, testbench files, and project data only.
 - `Register`: Basic register modules used in later designs.
 - `Register-File`: Register-file implementation and verification sources.
 - `Ripple-Carry-Adder`: Ripple-carry adder design and simulation files.
-
 - `Shifter/8-bit-Loadable-Shifter`: 8-bit loadable shifter modules and testbench files.
 - `Syncronous-FIFO`: Synchronous FIFO implementation and verification files.
 - `Traffic-Light-Controller`: FSM-based traffic light controller design and test files.
-- `project-memory-mapped-alu-dmac-system`: Integrated memory-mapped ALU, DMAC, BUS, and RAM term project.
+- `project-memory-mapped-alu-dmac-system`: Integrated memory-mapped ALU, direct memory access controller (DMAC), BUS, and RAM term project with supplemental testbenches.
 - `project-quine-mccluskey-cost-minimizer`: Quine-McCluskey SOP minimizer with transistor cost output.

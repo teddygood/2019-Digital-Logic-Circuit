@@ -5,7 +5,7 @@
 This project implements the 2019 Computer Engineering Design term project system composed of:
 
 - `ALU_Top`
-- `DMAC_Top`
+- `DMAC_Top` (direct memory access controller)
 - `BUS`
 - `ram`
 - `Top`
@@ -26,6 +26,8 @@ Verification was performed with Quartus II and ModelSim-Altera using RTL simulat
 
 The main verification scenario is implemented in `tb_Top.v`, which checks the required RAM -> DMAC -> ALU -> DMAC -> RAM data path.
 
+Supplemental module-level smoke benches are also included for the public ALU, DMAC, BUS, FIFO, RAM, and selected ALU submodules so the individual blocks can be exercised without the full system setup.
+
 ## File Guide
 
 ### Top-Level
@@ -33,6 +35,16 @@ The main verification scenario is implemented in `tb_Top.v`, which checks the re
 - `README.md` : project overview, verification summary, and file guide
 - `Top.v` : top-level integration of BUS, ALU, DMAC, and three RAM blocks
 - `tb_Top.v` : top-level testbench for the RAM -> DMAC -> ALU -> DMAC -> RAM flow
+
+### Supplemental Testbenches
+
+- `tb_ALU_Top.v` : ALU slave-register flow bench using the public `ALU_Top` interface
+- `tb_DMAC_Top.v` : DMAC slave/master flow bench using a lightweight backing memory model
+- `tb_ALU_alu.v` : ALU execution-core bench for opcode, shift, and multiply paths
+- `tb_ALU_registerfile.v` : 16-entry ALU register-file write/read bench
+- `tb_bus.v` : shared BUS arbitration and address-decoding bench
+- `tb_fifo.v` : 16-entry FIFO bench for descriptor and result-storage style traffic
+- `tb_ram.v` : 64-word RAM read/write bench
 
 ### ALU Block
 
