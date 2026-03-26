@@ -14,7 +14,7 @@ This repository keeps source files, testbench files, and project data only.
 
 - `Arithmetic-Logic-Unit`: Arithmetic and logic operation modules with related test sources.
 - `Bus`: Simple shared-bus design with arbiter, decoder, and bus verification files.
-- `Carry-Lookahead-Adder`: Carry lookahead adder implementations from small blocks to wider adders, including the Week 2 seven-segment CLA lab project.
+- `Carry-Lookahead-Adder`: Carry lookahead adder implementations from small blocks to wider adders, including a seven-segment CLA variant.
 - `Counter`: Counter design practice files and related verification code.
 - `Flip-Flop`: Flip-flop implementation examples and simulation files.
 - `Latch`: Basic latch design examples and test sources.
