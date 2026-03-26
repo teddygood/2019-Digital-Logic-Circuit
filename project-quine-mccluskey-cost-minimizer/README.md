@@ -4,12 +4,12 @@ An SOP minimization program created for the 2019 Digital Logic Circuit assignmen
 
 ## Files
 
-- `QuineMcCluskey.cpp`: source code for submission
-- `input_minterm.txt`: default input example
-- `result.txt`: example output
-- `examples/assignment_sample.txt`: assignment sample input
-- `examples/hard_case.txt`: additional verification input
-- `examples/all_true_5bit.txt`: edge case input
+- `QuineMcCluskey.cpp`: main program source file
+- `input_minterm.txt`: default input file
+- `result.txt`: output file generated from the default input
+- `examples/assignment_sample.txt`: sample input file
+- `examples/hard_case.txt`: input file with a harder test case
+- `examples/all_true_5bit.txt`: input file where all 5-bit minterms are true
 
 ## Build
 
