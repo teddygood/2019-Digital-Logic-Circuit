@@ -1,15 +1,15 @@
 # Quine-McCluskey Cost Minimizer
 
-2019 디지털논리회로 과제용 SOP 최소화 프로그램이다.
+An SOP minimization program created for the 2019 Digital Logic Circuit assignment.
 
 ## Files
 
-- `QuineMcCluskey.cpp`: 제출용 소스 코드
-- `input_minterm.txt`: 기본 입력 예제
-- `result.txt`: 실행 결과 예제
-- `examples/assignment_sample.txt`: 과제 예제 입력
-- `examples/hard_case.txt`: 추가 확인용 입력
-- `examples/all_true_5bit.txt`: 경계 사례 입력
+- `QuineMcCluskey.cpp`: source code for submission
+- `input_minterm.txt`: default input example
+- `result.txt`: example output
+- `examples/assignment_sample.txt`: assignment sample input
+- `examples/hard_case.txt`: additional verification input
+- `examples/all_true_5bit.txt`: edge case input
 
 ## Build
 
@@ -18,7 +18,7 @@ g++ -std=c++17 -O2 QuineMcCluskey.cpp -o quine
 ./quine
 ```
 
-다른 입출력 파일을 사용하려면:
+To use different input and output files:
 
 ```bash
 ./quine custom_input.txt custom_result.txt
@@ -33,7 +33,7 @@ g++ -std=c++17 -O2 QuineMcCluskey.cpp -o quine
 
 ## Output Format
 
-선택된 implicant를 한 줄씩 출력한 뒤 마지막 줄에 비용을 출력한다.
+The program prints each selected implicant on its own line and prints the final cost on the last line.
 
 ```text
 01--
